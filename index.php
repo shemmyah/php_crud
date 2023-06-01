@@ -36,7 +36,7 @@
                                     <th>ID</th>
                                     <th>Student Name</th>
                                     <th>Email</th>
-                                    <th>Phone</th>
+                                    <th>Phone Number</th>
                                     <th>Course</th>
                                     <th>Action</th>
                                 </tr>
@@ -58,10 +58,10 @@
                                                 <td><?= $student['phone']; ?></td>
                                                 <td><?= $student['course']; ?></td>
                                                 <td>
-                                                    <a href="student_view.php?id=<?= $student['id']; ?>" class="btn btn-info btn-sm">View</a>
-                                                    <a href="student_edit.php?id=<?= $student['id']; ?>" class="btn btn-success btn-sm">Edit</a>
+                                                    <a href="student_view.php?id=<?= $student['id']; ?>" class="btn btn-outline-info btn-md">View</a>
+                                                    <a href="student_edit.php?id=<?= $student['id']; ?>" class="btn btn-outline-success btn-md">Edit</a>
                                                     <form action="code.php" method="POST" class="d-inline">
-                                                        <button type="submit" name="delete_student" value="<?=$student['id'];?>" class="btn btn-danger btn-sm">Delete</button>
+                                                        <button type="submit" name="delete_student" value="<?=$student['id'];?>" class="btn btn-outline-danger btn-mdx">Delete</button>
                                                     </form>
                                                 </td>
                                             </tr>

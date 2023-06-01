@@ -19,8 +19,8 @@ session_start();
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Student Add</h4>
-                        <a href="index.php" class="btn btn-danger float-end">BACK</a>
+                        <h4>Add Student</h4>
+                        <a href="index.php" class="btn btn-danger float-end">Student List</a>
                     </div>
                     <div class="card-body">
                         <form action="code.php" method="POST">
@@ -33,7 +33,7 @@ session_start();
                                 <input type="text" name="email" class="form-control">
                             </div>
                             <div class="mb-3">
-                                <label>Student Phone</label>
+                                <label>Student Phone Number</label>
                                 <input type="text" name="phone" class="form-control">
                             </div>
                             <div class="mb-3">

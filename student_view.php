@@ -52,7 +52,7 @@ require 'db.php';
                                         </p>
                                     </div>
                                     <div class="mb-3">
-                                        <label>Student Phone</label>
+                                        <label>Student Phone Number</label>
                                         <p class="form-control">
                                             <?=$student['phone'];?>
                                         </p>
