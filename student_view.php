@@ -11,7 +11,7 @@ require 'db.php';
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <title>Student View</title>
+    <title>View</title>
 </head>
 <body>
 
@@ -21,7 +21,7 @@ require 'db.php';
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Student View Details 
+                        <h4>Student Details 
                             <a href="index.php" class="btn btn-danger float-end">BACK</a>
                         </h4>
                     </div>
