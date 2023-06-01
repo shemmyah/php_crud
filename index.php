@@ -30,7 +30,7 @@
                     </div>
                     <div class="card-body">
 
-                        <table class="table table-bordered table-striped">
+                        <table class="table table-bordered table-striped" style="text-align: center;">
                             <thead>
                                 <tr>
                                     <th>ID</th>
